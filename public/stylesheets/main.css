@@ -1,0 +1,135 @@
+.navbar-brand {
+    font-family: futura-pt,sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: black !important;
+}
+
+.col-md-6 {
+    padding-top: 50px;
+}
+
+#bg2 {
+    padding-left: 50px;
+    width: 50%;
+}
+
+#bg3 {
+    padding-right: 10px;
+    padding-left: 12px;
+    width: 50%;
+}
+
+.bg-4 {
+    padding-top: 110px;
+}
+
+.col-md-4 a {
+    color: black;
+}
+
+.footerright li {
+    list-style-type: none;
+    float: left;
+    padding-left: 50px;
+}
+
+.footermid li {
+    list-style-type: none;
+    float: left;
+    padding-left: 20px;
+}
+
+.ul1 li {
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.bg5 {
+    border: 1px solid lightgray;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bg6 {
+    border: 1px solid lightgray;
+}
+
+.bg6 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg7 {
+    text-align: center;
+}
+
+.bg8 {
+    border: 1px solid lightgray;
+}
+
+.bg8 span {
+    float: right;
+    padding-right: 10px;
+}
+
+.bg8 a {
+    float: right;
+}
+
+.bg9 {
+    border: 1px solid lightgray;
+}
+
+td {
+    border-top: 1px solid black;
+}
+
+#basketHeader {
+    text-align: center;
+}
+
+table {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+td, th {
+    text-align:center;
+}
+
+td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.empty {
+    padding-left: 50px;
+}
+
+.empty a {
+    margin-top: 30px;
+}
+
+#button1 {
+    position: absolute;
+    bottom: 100px;
+    right: 170px;
+}
+
+#header1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#paypal {
+    position: absolute;
+    right: 580px;
+    top: 200px;
+  }

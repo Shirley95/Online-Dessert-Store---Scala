@@ -1,0 +1,36 @@
+@(item: Item)
+
+@main("Blanc | Description"){
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 bg6">
+                <img src="/assets/@item.image" height="375px">
+            </div>
+            <div class="col-md-6 bg6 bg7">
+                <h2>@item.name</h2>
+            </div>
+            <div class="col-md-6 bg8">
+                <p>Stock left = @item.Stock
+                <span class="p1">@{"£%4.2f".format(item.price)}</span></p>
+                <a href="@routes.BasketController.addToBasket(item.id)" class="btn btn-danger" type="submit">Add to Basket</a>
+            </div>
+            <div class="col-md-6 bg9">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia nibh a velit egestas, at condimentum velit consequat.
+                    Pellentesque nec metus malesuada, iaculis lacus in, posuere felis. Nunc libero erat, congue ut suscipit eu, posuere non velit.
+                    Ut non sodales justo, non semper risus. Aliquam aliquam, libero vel vehicula tincidunt, libero justo ornare dui, in vulputate risus velit et orci.
+                    Vivamus consectetur eros eget risus pulvinar tempus. Donec suscipit purus sit amet sollicitudin feugiat. Phasellus non tincidunt velit.
+                    Cras aliquam tincidunt vulputate.
+
+                    Morbi viverra, ligula sit amet sollicitudin hendrerit, magna ipsum sollicitudin justo, et suscipit leo dui sed lacus.
+                    Vestibulum ac libero quis risus convallis accumsan. Donec blandit accumsan ultricies.
+                    Suspendisse porttitor ante quis lectus tincidunt facilisis. Vivamus vel est lectus.
+                    Pellentesque placerat fermentum ante, non consequat tellus vestibulum ut.
+                    Duis quis ipsum eget ligula euismod interdum non eu nisl. Nam placerat rutrum ipsum, tincidunt aliquet justo hendrerit convallis.
+                    Phasellus ac lacinia eros, eget scelerisque orci. Quisque nec fermentum magna.
+                </p>
+            </div>
+        </div>
+    </div>
+
+}
